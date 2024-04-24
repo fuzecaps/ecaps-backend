@@ -1,5 +1,12 @@
 {
     "require": {
-        "nikic/fast-route": "^1.3"
+        "nikic/fast-route": "^1.3",
+        "robmorgan/phinx": "^0.16.0",
+      "ext-sqlite3": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "db\\": "db/"
+        }
     }
 }
